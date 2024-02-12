@@ -1,5 +1,5 @@
-import TwitterPost from "./Components_ui/TwitterCard"
-import TwitterTrends from "./Components_ui/TwitterTrends"
+import TwitterPost from "./TwitterCard"
+import TwitterTrends from "./TwitterTrends"
 import imagePerfil from '../assets/image.jpg'
 import imagePost from '../assets/ITwitter.png'
 export default function About(){

@@ -9,7 +9,9 @@ export default {
       colors:{
         'home': '#222438',
         'black': '#000000',
-      },
+        'lighBlack': '#16181C',
+        'darkGray': '#1B1D20'
+      }
     }
 
   },
