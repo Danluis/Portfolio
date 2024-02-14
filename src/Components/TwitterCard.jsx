@@ -14,7 +14,7 @@ const TwitterPost = ({imagePerfil, imagePost}) => {
       </div>
       <p className="text-gray-100 ml-16 mr-4 text-sm">Soy Danluis, tengo 20 años, soy estudiante de termino del ITLA y me enfoco en el desarrollo web.</p>
       <div className="flex justify-center ml-16 mr-4">
-        <img src={imagePost} alt="Imagen adjunta" className="overflow-hidden w-full h-72 rounded-lg mt-3" />
+        <img src={imagePost} alt="Imagen adjunta" className="w-full h-72 rounded-lg mt-3" />
       </div>
       
       

@@ -1,7 +1,7 @@
 export default function TwitterTrendCard({Ntrend,Ptrend,Pposted}){
     return(
         <>
-            <div className="hover:bg-darkGray pt-4 pb-2 rounded px-4">
+            <div className="hover:bg-darkGray pt-4 rounded px-4">
                 <div className="flex justify-between">
                     <div>
                         <span className="text-sm text-gray-500">{Ntrend} · Trending</span> 

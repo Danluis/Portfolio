@@ -11,7 +11,8 @@ export default {
         'black': '#000000',
         'lighBlack': '#16181C',
         'darkGray': '#1B1D20',
-        'darkBlue':'#1D2C38'
+        'darkBlue':'#1D2C38',
+        'lightPurple': '#763FD0'
       }
     }
 
