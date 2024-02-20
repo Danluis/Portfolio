@@ -1,9 +1,9 @@
 import React from 'react';
 
-const TwitterPost = ({imagePerfil, imagePost}) => {
+const TwitterCard = ({imagePerfil, imagePost, description}) => {
   return (
   <>
-     <div className=" grid grid-col-2 container mx-auto p-4 w-full h-min border-2 border-solid border-gray-700">
+     <div className="grid grid-col-2 container mx-auto p-4 w-full h-min sm:mb-0  border-2 border-solid border-gray-700">
 
       <div className="flex items-center">
         <img src={imagePerfil} alt="Avatar" className="w-12 h-12 rounded-full mr-4" />
@@ -12,9 +12,9 @@ const TwitterPost = ({imagePerfil, imagePost}) => {
           <p className="text-gray-600">@DanluisDTG</p>
         </div>
       </div>
-      <p className="text-gray-100 ml-16 mr-4 text-sm">Soy Danluis, tengo 20 años, soy estudiante de termino del ITLA y me enfoco en el desarrollo web.</p>
+      <p className="text-gray-100 ml-16 mr-4 text-sm">{description}</p>
       <div className="flex justify-center ml-16 mr-4">
-        <img src={imagePost} alt="Imagen adjunta" className="w-full h-72 rounded-lg mt-3" />
+        <img src={imagePost} alt="Imagen adjunta" className="w-full sm:h-72 h-min rounded-lg mt-3 object-cover" />
       </div>
       
       
@@ -62,7 +62,7 @@ const TwitterPost = ({imagePerfil, imagePost}) => {
   );
 };
 
-export default TwitterPost;
+export default TwitterCard;
 
 
 

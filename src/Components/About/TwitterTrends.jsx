@@ -2,7 +2,7 @@ import TwitterTrendCard from "./TwitterTrendCard"
 export default function TwitterTrends(){
     return(
         <>
-            <div className="bg-lighBlack py-4 rounded-lg mr-20">
+            <div className="bg-lighBlack py-4 rounded-lg sm:mr-20 mr-0 sm:mb-0 mb-8">
                 <h1 className="text-gray-100 font-bold text-2xl pl-4">Trending in my life</h1>
                 <TwitterTrendCard Ntrend={1} Ptrend={'#Family'} Pposted={'530K'}/>
                 <TwitterTrendCard Ntrend={2} Ptrend={'#Programming'} Pposted={'1.85M'}/>
