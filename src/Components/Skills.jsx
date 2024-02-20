@@ -27,7 +27,7 @@ export default function Skills(){
     return(
         <>
             <div id="skills" className="w-full h-screen">
-             <h1 className='ml-20 mb-8 font-bold pt-20 text-4xl text-violet-800'>Skills</h1>
+             <h1 className='ml-28 mb-8 font-bold pt-20 text-4xl text-violet-800'>Skills</h1>
                 <SkillsContainer Title={'Frontend'} arrayImage={Frontend}/>
                 <SkillsContainer Title={'Backend'} arrayImage={Backend}/>
                 <SkillsContainer Title={'Others'} arrayImage={Others}/>
