@@ -4,6 +4,7 @@ import Home from './Components/Home/Home'
 import About from './Components/About/About'
 import Skills from './Components/Skills/Skills'
 import Projects  from './Components/Projects/Projects'
+import Contact from './Components/Contact/Contact'
 import { useState } from 'react'
 function App() {
   //Estado para saber si es hover card de projects
@@ -12,23 +13,26 @@ function App() {
   const [isHovered3, setIsHovered3] = useState(false);
 
   return (
-    <>
+    <div className='sm:max-w-full md:max-w-screen'>
         <Navbar />
-      <div className='bg-home'>
+      <div className='sm:max-w-full md:max-w-screen max-w-max bg-home'>
         <Home/>
       </div>
-      <div className='bg-black'>
+      <div className='sm:max-w-full md:max-w-screen max-w-max bg-black'>
         <About/>
       </div>
-      <div className='bg-home'>
+      <div className='sm:max-w-full md:max-w-screen max-w-max bg-home'>
         <Skills />
       </div>
-      <div className='bg-black'>
+      <div className='sm:max-w-full md:max-w-screen max-w-max bg-black'>
         <Projects isHovered={isHovered} setIsHovered={setIsHovered} 
         isHovered2={isHovered2} setIsHovered2={setIsHovered2} 
         isHovered3={isHovered3} setIsHovered3={setIsHovered3}/>
       </div>
-    </>
+      <div className='bg-home'>
+        <Contact />
+      </div>
+    </div>
   )
 }
 

@@ -12,7 +12,8 @@ export default {
         'lighBlack': '#16181C',
         'darkGray': '#1B1D20',
         'darkBlue':'#1D2C38',
-        'lightPurple': '#763FD0'
+        'lightPurple': '#763FD0',
+        'blackContact': '#282A41'
       }
     }
 

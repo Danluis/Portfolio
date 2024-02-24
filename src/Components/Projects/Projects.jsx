@@ -7,8 +7,8 @@ export default function Projects({ isHovered, setIsHovered,
   const Ecommerce = ['HTML', 'CSS', 'JS', 'REACT', 'CSharp', 'MYSQL'];
   return (
     <>
-      <h1 id='projects' className='p-4 ml-20 mb-8 font-bold pt-20 text-4xl text-blue-500'>Projects</h1>
-      <div className='w-full container mx-auto h-screen cursor-pointer'>
+      <h1 id='projects' className='p-4 lg:ml-20 ml-6 mb-8 font-bold pt-20 text-4xl text-blue-500'>Projects</h1>
+      <div className='sm:pb-0 pb-8 sm:block flex flex-col lg:ml-24 md:ml-10 ml-4 w-full container mx-auto lg:h-screen h-full cursor-pointer'>
         {isHovered ? (
           <ProjectsCardHover 
             title={'Ecommerce'} 
