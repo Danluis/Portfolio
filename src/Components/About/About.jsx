@@ -5,8 +5,7 @@ import imagePost from '../assets/ITwitter.png'
 import trends from '../assets/trends.png'
 export default function About(){
     return(
-        <> 
-        <div className="sm:ml-28 sm:px-0 px-6">
+        <div className="sm:ml-28 sm:px-0 px-6 bg-black">
         <h1 id='about' className='mb-8 font-bold pt-20 text-4xl text-green-500'>About me</h1>
        
         <div className="sm:gap-12 grid sm:grid-cols-2 sm:pb-0 pb-16">
@@ -24,6 +23,5 @@ export default function About(){
         </div>
         
         </div>
-        </>
     )
 }

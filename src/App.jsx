@@ -13,23 +13,23 @@ function App() {
   const [isHovered3, setIsHovered3] = useState(false);
 
   return (
-    <div className='sm:max-w-full md:max-w-screen'>
+    <div className='sm:max-w-full md:max-w-screen '>
         <Navbar />
-      <div className='sm:max-w-full md:max-w-screen max-w-max bg-home'>
+      <div className='sm:max-w-full md:max-w-screen lg:max-w-full bg-home'>
         <Home/>
       </div>
-      <div className='sm:max-w-full md:max-w-screen max-w-max bg-black'>
+      <div className='sm:max-w-full md:max-w-screen lg:max-w-full bg-black'>
         <About/>
       </div>
-      <div className='sm:max-w-full md:max-w-screen max-w-max bg-home'>
+      <div className='sm:max-w-full md:max-w-screen lg:max-w-full bg-home'>
         <Skills />
       </div>
-      <div className='sm:max-w-full md:max-w-screen max-w-max bg-black'>
+      <div className='sm:max-w-full md:max-w-screen lg:max-w-full bg-black'>
         <Projects isHovered={isHovered} setIsHovered={setIsHovered} 
         isHovered2={isHovered2} setIsHovered2={setIsHovered2} 
         isHovered3={isHovered3} setIsHovered3={setIsHovered3}/>
       </div>
-      <div className='bg-home'>
+      <div className='bg-home sm:max-w-full md:max-w-screen lg:max-w-full'>
         <Contact />
       </div>
     </div>
