@@ -9,7 +9,7 @@ export default function ProjectsCard ({title, arrayLabel=['HTML','CSS','JS'], on
                 </div>
                 <div className="px-6 pt-2 pb-2 h-40">
                     {arrayLabel.map((span) =>(
-                        <span className="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{span}</span>
+                        <span key={span} className="inline-block bg-gray-200 rounded-full px-2 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{span}</span>
                     ))
                      
                     }
