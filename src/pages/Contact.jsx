@@ -1,6 +1,5 @@
-import mario from '../assets/mario.png'
-import ContactAside from '../Contact/ContactAside'
-import ContactForm from '../Contact/ContactForm'
+import ContactAside from '../Components/Contact/ContactAside'
+import ContactForm from '../Components/Contact/ContactForm'
 
 export default function Contact(){
     return (
@@ -18,7 +17,7 @@ export default function Contact(){
                     </div>
                 </div>
                
-                <ContactAside image={mario}/>
+                <ContactAside image={'https://i.imgur.com/WESTwFG.png'}/>
                 
             </div>
         </>

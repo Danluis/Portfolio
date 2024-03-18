@@ -1,4 +1,3 @@
-import image from '../assets/paisaje.jpg' 
 export default function ProjectsCard ({title, arrayLabel=['HTML','CSS','JS'], onMouseEnter, img}){
     return(
         <>

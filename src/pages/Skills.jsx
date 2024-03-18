@@ -1,4 +1,4 @@
-import SkillsContainer from "./SkillsContainer"
+import SkillsContainer from "../Components/Skills/SkillsContainer"
 
 //Frontend images
 

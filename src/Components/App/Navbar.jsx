@@ -1,4 +1,4 @@
-import { Enlace } from "./Components_ui/Enlace"
+import { Enlace } from "../Components_ui/Enlace"
 import { Link, Element } from 'react-scroll';
 
 export default function Navbar() {

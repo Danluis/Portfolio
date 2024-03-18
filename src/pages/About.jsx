@@ -1,8 +1,5 @@
-import TwitterCard from "./TwitterCard"
-import TwitterTrends from "./TwitterTrends"
-import imagePerfil from '../assets/image.jpg'
-import imagePost from '../assets/ITwitter.png'
-import trends from '../assets/trends.png'
+import TwitterCard from "../Components/About/TwitterCard"
+import TwitterTrends from "../Components/About/TwitterTrends"
 export default function About(){
     return(
 
@@ -11,11 +8,11 @@ export default function About(){
        
         <div className="sm:gap-12 grid sm:grid-cols-2 sm:pb-0 pb-16">
             <div className='w-full container mx-auto sm:h-screen h-min'>
-                <TwitterCard imagePerfil={imagePerfil} imagePost={imagePost} description={'Hi, I am Danluis, I am 20 years old, I am a student at ITLA and I focus on web development.'}/>
+                <TwitterCard imagePerfil={'https://i.imgur.com/qGBP7QB.jpg'} imagePost={'https://i.imgur.com/4VlhlAL.png'} description={'Hi, I am Danluis, I am 20 years old, I am a student at ITLA and I focus on web development.'}/>
             </div>
 
             <div className='sm:hidden block w-full container mx-auto sm:h-screen h-min'>
-                <TwitterCard imagePerfil={imagePerfil} imagePost={trends} description={'There are my life trendings!!'}/>
+                <TwitterCard imagePerfil={'https://i.imgur.com/qGBP7QB.jpg'} imagePost={'https://i.imgur.com/y3zfmo9.png'} description={'There are my life trendings!!'}/>
             </div>
 
             <div className="sm:block hidden">
