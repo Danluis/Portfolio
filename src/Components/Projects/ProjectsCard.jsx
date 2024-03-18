@@ -1,11 +1,11 @@
 import image from '../assets/paisaje.jpg' 
-export default function ProjectsCard ({title, arrayLabel=['HTML','CSS','JS'], onMouseEnter}){
+export default function ProjectsCard ({title, arrayLabel=['HTML','CSS','JS'], onMouseEnter, img}){
     return(
         <>
              <div key={title} className="mt-4 sm:w-1/4 rounded overflow-hidden shadow-lg bg-gray-100 inline-block mr-8 h-4/5" onMouseEnter={onMouseEnter}>
-                <img className="w-full sm:h-52 h-40" src={image} alt="Sunset in the mountains" />
+                <img className="w-full sm:h-1/2 h-40" src={img} alt="Sunset in the mountains" />
                 <div className="px-6 py-4">
-                    <div className="font-bold text-lg text-black">{title}</div>
+                    <div className="font-bold text-2xl text-black">{title}</div>
                 </div>
                 <div className="px-6 pt-2 pb-2 h-40">
                     {arrayLabel.map((span) =>(
